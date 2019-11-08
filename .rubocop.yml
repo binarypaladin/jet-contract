@@ -1,0 +1,44 @@
+AllCops:
+  TargetRubyVersion: 2.5.5
+Documentation:
+  Enabled: false
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
+  IgnoredPatterns: ['\A#']
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+Naming/FileName:
+  Exclude:
+    - 'lib/jet-contract.rb'
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+Naming/UncommunicativeBlockParamName:
+  Enabled: false
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+Style/ClassVars:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - '*.gemspec'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'spec/**/*'
+Style/LambdaCall:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
